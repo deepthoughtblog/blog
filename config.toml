@@ -1,0 +1,8 @@
+baseURL = "https://deepthought.blog/"
+languageCode = "en-us"
+title = "Deep Thought"
+theme = "hugo-theme-tufte-css"
+googleAnalytics = "UA-124170616-1"
+
+[permalinks]
+  post = "/:year/:month/:title/"
