@@ -13,12 +13,14 @@
   who care deeply about their craft and giving back to the community. </p>
 </div>
 
-{{ partial "subscribe.html" . }}
-
 <h2>Recent Articles</h2>
 
-{{ range first 5 .Pages.ByDate.Reverse }}
+{{ $posts := where .Pages ".Params.type" "article" }}
+
+{{ range first 5 $posts.ByDate.Reverse }}
 {{ .Render "summary" }}
 {{ end }}
+
+{{ partial "subscribe.html" . }}
 
 {{ end }}

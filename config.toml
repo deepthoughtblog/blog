@@ -8,4 +8,4 @@ googleAnalytics = "UA-124170616-1"
 description = "Deep Thought aims at helping you become a better software developer by bringing you distilled, time-tested ideas about the craft of writing code."
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  article = "/:year/:month/:title/"
