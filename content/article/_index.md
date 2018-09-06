@@ -1,4 +1,4 @@
 ---
-title: Articles
-url: /articles
+title: "Articles"
+url: "/articles"
 ---
