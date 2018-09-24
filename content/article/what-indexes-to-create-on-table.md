@@ -2,7 +2,6 @@
 title: "What indexes should I create on a table?"
 date: "2018-09-23"
 type: "article"
-draft: true
 ---
 
 While designing a software system that involves a database, this question inevitably
