@@ -7,7 +7,7 @@ type: "article"
 While designing a software system that involves a database, this question inevitably
 pops up in the minds of software developers. Indexes improve the speed of data retrieval operations,
 and who wouldn't like their queries to be faster? Aside, database design is such an important decision in
-the lifetime of the software. Your application code is most likely to change over a few years, unlike your database schema
+the lifetime of the software. Your application code is most likely to change over a few years, unlike your database schema which 
 is most likely to stay the same.<label for="sn-data-maturity" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-data-maturity" class="margin-toggle"/>
 <span class="sidenote">
@@ -16,13 +16,13 @@ is most likely to stay the same.<label for="sn-data-maturity" class="margin-togg
   pointed [here](https://www.reaktor.com/blog/applications-age-like-fish-data-ages-like-wine/) is about
   [Last.fm](https://web.archive.org/web/20150401045306/http://www.last.fm/forum/21717/_/46047), who were not
   able to allow change of usernames despite ten years of feature requests.
-</span> In this article helps you understand the idea of database indexes from the fundamentals, so you
+</span> This article helps you understand the idea of database indexes from the fundamentals, so you
 can decide when to use one.
 
 
 ## What's an index?
 
-Let's assume you have table in your database similar to this:
+Let's assume you have a table in your database similar to this:
 
 ```sql
   CREATE TABLE blogpost (
