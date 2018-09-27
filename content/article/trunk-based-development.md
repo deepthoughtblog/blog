@@ -23,7 +23,6 @@ Let’s contrast trunk based development with the most commonly used strategy - 
 
 ![Gitflow](/assets/trunk-based-development-git-flow.svg)
 
-
 One of the relatively better flavours of the gitflow strategy is to checkout a feature branch which acts as a base throughout the development process of the feature. But no commits are made directly to this feature branch. Rather, further short-lived branches are checked out and merged back to the feature branch via pull requests. Code reviews are relatively easy due to smaller changes. It works well when one feature is being developed at a time. When multiple feature branches are checked out, conflict resolution problems start popping up.
 
 Trunk based development really shines as an alternative, mainly because it encourages you to tweak different parts of the workflow, and
@@ -31,7 +30,7 @@ it is more of a software discipline rather than a strategy per se.
 
 In brief, trunk based development is where all developers commit to one shared branch (called _mainline_ or _trunk_) under source-control, resisting the urge to create long-lived branches.
 
-_"But we’re working on a feature which might take a long time to be rolled out!”_ 
+_"But we’re working on a feature which might take a long time to be rolled out!”_
 
 Consider these practices:
 
@@ -48,6 +47,8 @@ Is this worth it? In short, Yes. Trunk based development, when followed consiste
 - Flexible feature roll-out. You could roll-out features in a controlled way say to a specific set of users.
 - Active code base which encourages better collaboration and clarity amongst the team.
 
----
 
-Post kickstart of trunk based development in your development workflow, we suggest reading up on [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/) which has a lots of further pointers and explanations.
+### References:
+
+-  Gitflow image source: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+- Trunk based development: https://trunkbaseddevelopment.com/
