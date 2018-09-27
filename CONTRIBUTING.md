@@ -4,6 +4,24 @@ In DeepThought, we publish articles on topics such as design patterns, developme
 
 We're open to publish articles as long as it meets the criteria. To maintain the quality of the content, all articles goes through a review process via Github Pull requests - https://github.com/deepthoughtblog/blog/pulls
 
+## Article format
+
+##### Path
+
+`content/article/article_name.md`
+
+##### Content
+
+```
+---
+title: "Name of the article"
+date: "YYYY-MM-DD"
+type: "article"
+---
+
+Content goes here
+```
+
 ## How to publish
 
 - If you already have a rough draft of the article, please create a pull-request. A maintainer should add necessary labels and take it forward for review.
