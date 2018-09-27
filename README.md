@@ -70,4 +70,4 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
 
-Nivedita Saikia for the DeepThought logo.
+Thanks [Nivedita Saikia](http://niveditasaikia.tk) for the DeepThought logo.
