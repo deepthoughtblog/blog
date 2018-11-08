@@ -13,5 +13,6 @@ Read the **[contributing guide](https://github.com/deepthoughtblog/blog/blob/mas
 The following contributors make Deep Thought happen, listed in alphabetical order:
 
 - [Jai Pradeesh](https://twitter.com/dolftax)
+- [Kaustav Das Modak](https://twitter.com/kaustavdm)
 - [Sanket Saurav](https://twitter.com/sanketsaurav)
 - [Sourya Vatsyayan](https://twitter.com/souryavatsyayan)
